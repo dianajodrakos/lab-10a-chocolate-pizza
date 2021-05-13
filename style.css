@@ -39,8 +39,9 @@ h5 {
 
 .author {
     display: flex;
-
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 button {
@@ -82,4 +83,13 @@ footer{
 
 footer p{
     margin: 0;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: sienna;
+    color: white;
+    text-transform: uppercase;
+    border: none;
 }
