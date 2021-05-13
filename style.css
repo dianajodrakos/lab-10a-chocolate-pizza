@@ -1,0 +1,37 @@
+h2 {
+}
+
+h6 {
+}
+
+h5 {
+}
+
+.title {
+
+}
+
+.list {
+    background-image: url(./lab-assets/list-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    font-family: 'Comic Sans MS';
+    padding: 20px;
+    line-height: 160%;
+}
+
+.author {
+    display: flex;
+
+
+}
+
+button {
+
+}
+
+section {
+    
+}
