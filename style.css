@@ -4,7 +4,7 @@ body{
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 700px;
     margin: auto;
     color: rgb(63, 63, 63);
     font-family: 'Noto Serif', serif;
@@ -69,7 +69,7 @@ h3 {
 h2 {
     margin-bottom: 0;
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
 
 }
@@ -86,15 +86,26 @@ h6 {
 h5 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: 14px;
 }
 
 h3, h6 {
     font-family: 'Titillium Web', sans-serif;
 }
 
+p {
+    margin: 20px;
+}
+.author p {
+    margin: 0px;
+}
+
+.author section {
+    margin: 0 20px;
+}
 .list {
     font-family: 'Patrick Hand', cursive;-image: url(./lab-assets/list-bg.png);
+    font-size: 16px;
     background-image: url(./lab-assets/list-bg.png);
     background-size: cover;
     display: flex;
@@ -112,7 +123,7 @@ h3, h6 {
     align-items: center;
 }
 
-article p {
+.content {
     text-indent: 35px;
 }
 .boared{
