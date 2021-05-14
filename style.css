@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@200;600&family=Patrick+Hand&family=Roboto+Condensed:wght@300&family=Yellowtail&display=swap');
 body{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    width: 500px;
     margin: auto;
     color: rgb(63, 63, 63);
+    font-family: 'Noto Serif', serif;
+    font-size: 12px;
 }
 
 h1, h3 {
     margin: 0;
+    line-height: 100%;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
 }
 
 h3 {
@@ -28,11 +37,13 @@ h3 {
     display:flex;
     flex-direction: row;
     justify-content: left;
+    align-items: center;
 }
 
 .logo-container {
     display: flex;
     flex-direction: column;
+    margin-left: 8px;
 }
 
 .sm-logos {
@@ -57,9 +68,15 @@ h3 {
 
 h2 {
     margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 h6 {
+    color: silver;
+    text-size: 10px; 
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
@@ -72,11 +89,12 @@ h5 {
     font-size: 1.1rem;
 }
 
-.title {
-
+h3, h6 {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .list {
+    font-family: 'Patrick Hand', cursive;-image: url(./lab-assets/list-bg.png);
     background-image: url(./lab-assets/list-bg.png);
     background-size: cover;
     display: flex;
@@ -94,14 +112,9 @@ h5 {
     align-items: center;
 }
 
-button {
-
+article p {
+    text-indent: 35px;
 }
-
-section {
-    
-}
-
 .boared{
     background-image: url(./lab-assets/hr-img.png);
     width: 100%;
@@ -124,6 +137,7 @@ section {
 }
 
 footer{
+    font-size: .8rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -138,6 +152,7 @@ footer p{
 }
 
 button{
+    font-family: 'Roboto Condensed', sans-serif;
     height: 50px;
     width: 150px;
     background-color: sienna;
